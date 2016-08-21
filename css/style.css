@@ -1,0 +1,136 @@
+html, body{
+	width: 100%;
+	height : 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #c3c3a2;
+	font-family: sans-serif;
+	font-style: normal;
+	font-size: 14px;
+}
+
+header{
+	width:80%;
+	margin:auto;
+	background-color: #ff9933;
+	height:4%;
+	text-decoration: blink;
+	text-shadow: gray;
+}
+
+.list{
+	
+	height:60px;
+	background-color: #ff9933;
+	float: left;
+	width:50%
+}
+a{
+	text-decoration: none;
+	font-size: 22px;
+}
+.column{
+	
+	width:80%;
+	margin:auto;
+	padding:4%;
+	
+}
+
+#main{
+	
+	width : 100%;
+	
+	
+}
+
+fieldset{
+	background-color: #ebebe0;
+	margin:auto;
+	width : 80%;
+}
+
+legend{
+	
+	text-transform: capitalize;
+	
+}
+
+.column label{
+	
+	width: 20%;
+	display: inline-block;
+	
+	
+}
+
+.column input, .column select{
+	
+	width: 50%;
+	display: inline-block;
+	border: 1px medium ;
+	border-radius : 5px;
+	height: 20px;
+}
+
+.column textarea{
+	
+	width: 50%
+}
+
+.submit{
+	
+	background-color: #ff9933;
+	color: white;
+	padding: 2%;
+}
+
+
+
+.reg_form input:focus:invalid, .reg_form textarea:focus:invalid { 
+    
+    box-shadow: 0 0 4px red;
+    border-color: red;
+}
+
+.reg_form input:required:valid, .reg_form textarea:required:valid { /* when a field is considered valid by the browser */
+    
+    box-shadow: 0 0 4px #5cd053;
+    border-color: #28921f;
+}
+
+@media (max-width: 860px) {
+	.column{
+	margin : 0;
+	padding : 2%;
+	}
+	
+	.column label{
+	
+	width: 100%;
+	display: inline-block;
+	
+	
+}
+
+.column input{
+	
+	width: 100%;
+	display: inline-block;
+	border: 1px medium ;
+}
+	
+.list{
+	
+	height:20px;
+	background-color: #ff9933;
+	float: left;
+	width:100%
+}
+a{
+	text-decoration: none;
+	font-size: 14px;
+}
+}
+
+
